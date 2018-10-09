@@ -20,5 +20,6 @@ $ mongo
 2. MongoTemplate
 3. MongoRepository
 4. @DataMongoTest
+Repository 레이어 슬라이싱 테스트를 하기 위함
 5. 내장형 MongoDB(테스트용)
-
+de.flapdoodle.embed:de.flapdoodle.embed.mongo
