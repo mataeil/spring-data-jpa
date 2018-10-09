@@ -15,7 +15,7 @@ $ redis exec -i -t redis_boot redis-cli
 ```
 $ docker run -p 27017:27017 --name mongo_boot -d mongo
 $ docker exec -it mongo_boot bash
-$ mongo  
+$ mongo
 ```
 2. MongoTemplate
 3. MongoRepository
