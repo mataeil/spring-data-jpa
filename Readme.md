@@ -23,3 +23,16 @@ $ mongo
 Repository 레이어 슬라이싱 테스트를 하기 위함
 5. 내장형 MongoDB(테스트용)<br />
 de.flapdoodle.embed:de.flapdoodle.embed.mongo
+## Neo4j
+> neo4j proejct
+1. neo4j 설치 (docker)
+```
+$ docker run -p 7474:7474 -p 7687:7687 --name neo4j_boot -d neo4j
+```
+2. neo4j browser
+> http://localhost:7474/browser/
+3. SessionFactory
+4. Neo4jRepository
+4. @NodeEntity
+5. Neo4jTemplate(Deprecated)
+
